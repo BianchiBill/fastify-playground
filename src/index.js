@@ -4,8 +4,8 @@ import { startWithImportRouters } from './first-plugin.js';
 
 
 ( async () => {
-    console.log( '' );
-    // initFastify();
-    // start();
-    startWithImportRouters();
+  console.log( '' );
+  // initFastify();
+  // start();
+  startWithImportRouters();
 })();

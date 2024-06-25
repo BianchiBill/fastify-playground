@@ -24,7 +24,9 @@
     "url": "https://github.com/BianchiBill/fastify-playground/issues"
   },
   "dependencies": {
-    "fastify": "4.28.0"
+    "@fastify/mongodb": "8.0.0",
+    "fastify": "4.28.0",
+    "fastify-plugin": "4.5.1"
   },
   "devDependencies": {
     "@eslint/js": "9.5.0",
