@@ -4,8 +4,14 @@ const fastify = Fastify({
     logger: true,
 });
 
+// get router
+fastify.get( '/', async ( ) => {
+    return { message: 'Hello World' };
+});
 
-fastify.get( '/', async ( request, reply ) => {
+// get router with id
+fastify.get( '/:id', async ( request ) => {
+    console.log( 'ID ', request.url );
     return { message: 'Hello World' };
 });
 
